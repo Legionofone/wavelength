@@ -40,7 +40,7 @@ const HeaderNav = () => {
     },
     {
       icon: <MenuBookIcon />,
-      text: 'Borked',
+      text: 'Amanda',
       onClick: () => {
         window.location.href = '/wavelength/docs';
       },
