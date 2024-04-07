@@ -40,7 +40,7 @@ const HeaderNav = () => {
     },
     {
       icon: <MenuBookIcon />,
-      text: 'Amanda',
+      text: 'Docs',
       onClick: () => {
         window.location.href = '/wavelength/docs';
       },
@@ -49,7 +49,7 @@ const HeaderNav = () => {
       icon: <GitHubIcon />,
       text: 'GitHub',
       onClick: () => {
-        window.location.href = 'https://github.com/davidhorm/wavelength';
+        window.location.href = 'https://github.com/Legionofone/wavelength';
       },
     },
   ];
