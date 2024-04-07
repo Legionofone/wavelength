@@ -1,5 +1,6 @@
 #!/bin/bash
-git fetch --all
-git reset --hard origin/master
+git reset --hard HEAD
+git clean -xffd
+git pull origin master --no-edit
 
 (yarn start&)
