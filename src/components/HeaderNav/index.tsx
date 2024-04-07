@@ -40,7 +40,7 @@ const HeaderNav = () => {
     },
     {
       icon: <MenuBookIcon />,
-      text: 'Tech Spec',
+      text: 'Borked',
       onClick: () => {
         window.location.href = '/wavelength/docs';
       },
