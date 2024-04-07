@@ -3,4 +3,4 @@ git reset --hard HEAD
 git clean -xffd
 git pull origin master --no-edit
 
-nohup yarn start
+pm2 start yarn -- start
